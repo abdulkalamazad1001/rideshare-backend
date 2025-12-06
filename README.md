@@ -25,7 +25,6 @@ It not only satisfies **all requirements** from the assignment but also goes **b
 - Error-safe service layering
 - Extendable design ready for real deployment
 
-This is NOT just a "college mini project" —  
 it is a **real backend application** following industry standards.
 
 ---
