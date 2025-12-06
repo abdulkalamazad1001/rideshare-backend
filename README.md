@@ -1,4 +1,4 @@
-# 🚕 RideShare Backend 
+# RideShare Backend L-
 
 This repository contains a compact, production-minded backend blueprint for a ride-hailing app (think small Ola/Uber).
 It uses Spring Boot for REST APIs, Spring Security + JWT for authentication/authorization, and MongoDB for persistence.
