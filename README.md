@@ -1,4 +1,4 @@
-# RideShare Backend — Advanced Spring Boot + MongoDB + JWT System
+# RideShare Backend - Advanced Spring Boot + MongoDB + JWT System
 
 This project is a fully functional **Ride Sharing Backend**, inspired by platforms like Ola/Uber, built using **Spring Boot**, **MongoDB**, and **JWT Authentication**.  
 It not only satisfies **all requirements** from the assignment but also goes **beyond expectations** with production-level security, architecture, and role-based access control.
