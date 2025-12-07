@@ -38,7 +38,7 @@ public class AuthController {
         return ResponseEntity.ok(response);
     }
 
-    // LOGIN --> for logging in of the user..
+    // LOGIN --> for logging in of the user.
     @PostMapping("/login")
     public ResponseEntity<?> login(@Valid @RequestBody LoginRequest req) {
 

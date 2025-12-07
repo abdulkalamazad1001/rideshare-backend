@@ -20,10 +20,10 @@ public class UserService {
         this.passwordEncoder = passwordEncoder;
     }
 
-    // REGISTER
+    // REGISTER --> this is useful to register the candidate..
     public User register(RegisterRequest req) {
 
-        // If username already exists
+        // If username already exists.. if exists we will have to throw an error
         if (userRepository.findByUsername(req.getUsername()) != null) {
             throw new BadRequestException("Username already taken");
         }
@@ -36,7 +36,7 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    // LOGIN / AUTHENTICATE
+    // LOGIN / AUTHENTICATE --> for login authentication.. we can use this..
     public User authenticate(LoginRequest req) {
 
         User user = userRepository.findByUsername(req.getUsername());

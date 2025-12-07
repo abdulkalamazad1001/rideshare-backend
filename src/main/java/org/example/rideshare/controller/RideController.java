@@ -41,7 +41,7 @@ public class RideController {
         return ResponseEntity.ok(rides);
     }
 
-    // DRIVER: Accept Ride --->
+    // DRIVER: Accept Ride ---> this is for driver to accept the ride..
     @PreAuthorize("hasRole('DRIVER')")
     @PostMapping("/driver/rides/{rideId}/accept")
     public ResponseEntity<?> acceptRide(
@@ -61,7 +61,7 @@ public class RideController {
         return ResponseEntity.ok(ride);
     }
 
-    // USER: Get user's ride history
+    // USER: Get user's ride history --> this will get us the user's ride history
     @PreAuthorize("hasRole('USER')")
     @GetMapping("/user/rides")
     public ResponseEntity<?> getUserRides(Authentication auth) {

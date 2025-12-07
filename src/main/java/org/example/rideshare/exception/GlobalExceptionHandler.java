@@ -14,7 +14,7 @@ import java.util.Map;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    //Validation Errors
+    //Validation Errors --> for username and password validation we can check here!
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<?> handleValidationErrors(MethodArgumentNotValidException ex){
         Map<String, Object> error = new HashMap<>();
@@ -27,7 +27,7 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
-    // NotFoundException
+    // NotFoundException --> this is for not found exception to find if the user has registered or not!
     @ExceptionHandler(NotFoundException.class)
     public ResponseEntity<?> handleNotFound(NotFoundException ex) {
         Map<String, Object> error = new HashMap<>();
@@ -39,7 +39,7 @@ public class GlobalExceptionHandler {
     }
 
 
-    // BadRequestException
+    // BadRequestException --> this is for bad request exception!
     @ExceptionHandler(BadRequestException.class)
     public ResponseEntity<?> handleBadRequest(BadRequestException ex) {
         Map<String, Object> error = new HashMap<>();
