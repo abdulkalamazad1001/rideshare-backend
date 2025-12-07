@@ -1,13 +1,11 @@
-# 🚕 RideShare Backend — Advanced Spring Boot + MongoDB + JWT System
-
-### _(Built Beyond the Required Student Assignment)_
+# RideShare Backend — Advanced Spring Boot + MongoDB + JWT System
 
 This project is a fully functional **Ride Sharing Backend**, inspired by platforms like Ola/Uber, built using **Spring Boot**, **MongoDB**, and **JWT Authentication**.  
 It not only satisfies **all requirements** from the assignment but also goes **beyond expectations** with production-level security, architecture, and role-based access control.
 
 ---
 
-# ⭐ Highlights — What Makes This Project Next Level?
+# ⭐ Highlights of this Project:
 
 ✅ **Implemented ALL required features**  
 ✅ **PLUS additional professional features**
@@ -29,7 +27,7 @@ it is a **real backend application** following industry standards.
 
 ---
 
-# 🧱 Technologies Used
+# 🧱 Technologies Used:
 
 - **Java 24**
 - **Spring Boot 3.4**
@@ -42,7 +40,7 @@ it is a **real backend application** following industry standards.
 
 ---
 
-# 🏗 Folder Structure (Clean Architecture)
+# 🏗 Folder Structure (Clean Architecture) :
 
 ```
 src/main/java/org/example/rideshare/
@@ -117,7 +115,7 @@ This models a real ride-sharing workflow accurately.
 
 ---
 
-# 🔥 API Endpoints (Fully Tested)
+#  API Endpoints (Fully Tested)
 
 ## PUBLIC
 
@@ -148,7 +146,7 @@ This models a real ride-sharing workflow accurately.
 
 ---
 
-# 🧪 Example Workflow (Postman Tested)
+# Example Workflow (Postman Tested) :
 
 1️⃣ Register USER  
 2️⃣ Register DRIVER  
@@ -163,7 +161,7 @@ All flows **successfully tested**.
 
 ---
 
-# ⚠️ Validation & Error Handling
+# Validation & Error Handling :
 
 We implemented:
 
@@ -183,7 +181,7 @@ Example error response:
 
 ---
 
-# 🧠 Learning Outcomes
+# Learning Outcomes :
 
 This project teaches you real backend development:
 
@@ -199,7 +197,7 @@ This project teaches you real backend development:
 
 ---
 
-# 🚀 How to Run the Project
+# How to Run the Project:
 
 Clone:
 
@@ -227,7 +225,7 @@ http://localhost:8080
 
 ---
 
-# 🏁 Final Note
+# Final Note :
 
 This RideShare backend goes far beyond the assignment requirements and represents a high-quality, real-world backend design.
 
